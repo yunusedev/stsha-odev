@@ -160,7 +160,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="mb-12 flex flex-col items-center gap-4 px-4">
+      <div className="mb-24 flex flex-col items-center gap-4 px-4">
         <h1 className="text-transparent text-center text-4xl font-bold bg-clip-text bg-gradient-to-r from-red-500 to-blue-500 via-pink-400">
           Derlediğimiz özlü sözler
         </h1>
@@ -178,7 +178,7 @@ function App() {
           ))}
         </div>
       </div>
-      <div className="px-4 flex flex-col items-center gap-4 mb-12">
+      <div className="px-4 flex flex-col items-center gap-4 mb-24">
         <h1 className="text-transparent text-center text-4xl font-bold bg-clip-text bg-gradient-to-r from-red-500 to-blue-500 via-pink-400">
           Soru & Cevap
         </h1>
@@ -226,7 +226,7 @@ function App() {
           ))}
         </div>
       </div>
-      <div className="mb-12 flex px-4 flex-col gap-4 items-center">
+      <div className="mb-24 flex px-4 flex-col gap-4 items-center">
         <h1 className="text-transparent text-center text-4xl font-bold bg-clip-text bg-gradient-to-r from-red-500 to-blue-500 via-pink-400">
           Bitiş
         </h1>
