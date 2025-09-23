@@ -21,15 +21,6 @@ export default function HeroSection() {
       className="relative h-[200vh] w-full flex flex-col items-center"
     >
       <motion.div className="top-0 sticky h-screen w-full flex items-center flex-col justify-center">
-        <motion.img
-          style={{
-            filter: blurStyle,
-            opacity: 0.8
-          }}
-          className="h-full w-full object-cover absolute"
-          src="/arkaplan.png"
-          alt="Aile"
-        />
         <motion.div
           className="absolute top-0 left-0 h-screen w-full flex justify-center flex-col bg-background"
           style={{ opacity: overlayOpacity }}
