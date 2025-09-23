@@ -12,9 +12,7 @@ export default function HeroSection() {
 
   const overlayOpacity = useTransform(scrollYProgress, [0, 0.5], [0, 1]);
   const titleOpacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
-  const bluredImage = useTransform(scrollYProgress, [0, 0.5], [0, 0]);
   const newTitleOpacity = useTransform(scrollYProgress, [0.5, 1], [0, 1]);
-  const blurStyle = useMotionTemplate`blur(${bluredImage}px)`;
   return (
     <section
       ref={containerRef}
